@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithms Visualizer</title>
+    <link rel="stylesheet" href="sv_style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sorting Visualizer</h1>
+        <div class="controls">
+            <button onclick="init()">Random_Value_Gen</button>
+            <button onclick="play('bubble')">Bubble Sort</button>
+            <button onclick="play('selection')">Selection Sort</button>
+            <button onclick="play('insertion')">Insertion Sort</button>
+            <button onclick="play('quick')">Quick Sort</button>
+            <button onclick="play('heap')">Heap Sort</button>
+        </div>
+        <div id="bars-container"></div>
+    </div>
+    <script src="sv_script.js"></script>
+</body>
+</html>
